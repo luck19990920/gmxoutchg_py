@@ -19,7 +19,26 @@
   charge.txt has been successfully created in this folder
   Press Enter to exit...
   ```
-* <strong>Step3</strong>: 键入回车即可关闭该界面，然后在该目录下生成了`charge.txt`文件。
+* <strong>Step3</strong>: 键入回车即可关闭该界面，然后在该目录下生成了`charge.txt`文件。`charge.txt`文件内容如下。
+  ```
+    1.000000       1           1
+    1.000000       2           2
+    1.000000       3           3
+    1.000000       4           4
+    1.000000       5           5
+    1.000000       6           6
+    1.000000       7           7
+    1.000000       8           8
+    1.000000       9           9
+    1.000000      10          10
+    1.000000      11          11
+    2.000000      12          12
+    2.000000      13          13
+    2.000000      14          14
+    2.000000      15          15
+    ...
+  ```
+  文件中的第一列、第二列和第三列分别是原子电荷、分子序号和原子序号。
 ### 鸣谢
 在开发`gmxoutchg_py`的过程中，参考了<a href='http://bbs.keinsci.com/thread-5417-1-1.html' target='_blank'>`gmxoutchg`</a>的Fortran源码。此外，还使用到了`dataclasses`库中的`dataclass`，`collections`库中的`OrderedDict`以及`re`库和`PyInstaller`库。在此对上述库或程序的开发者表示感谢。
 
