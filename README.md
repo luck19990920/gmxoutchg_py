@@ -1,4 +1,4 @@
-`gmxoutchg_py`是<a href='http://bbs.keinsci.com/thread-5417-1-1.html' target='_blank'>`gmxoutchg`</a>的python版本。其操作方法与`gmxoutchg`完全一致。目前该软件只对`gromacs 2018.8`兼容，对其他版本的`gromacs`兼容性未知。`gmxoutchg_py.exe`为Windows版可执行文件，`gmxoutchg_py.py`为`gmxoutchg_py`的python源代码。
+`gmxoutchg_py`是<a href='http://bbs.keinsci.com/thread-5417-1-1.html' target='_blank'>`gmxoutchg`</a>的python版本。其操作方法与`gmxoutchg`完全一致。目前该软件只对`gromacs 2018.8`兼容，对其他版本的`gromacs`兼容性未知。`gmxoutchg_py.exe`为Windows版可执行文件，`gmxoutchg_py.py`为`gmxoutchg_py`的python源代码。`charge.tcl`为使VMD读入电荷信息的TCL脚本。
 
 ### 使用方法
 * <strong>Step1</strong>: 将`gromacs`产生的二进制`tpr`文件转换采用`gmx dump -s XX.tpr > dump.txt`(XX.tpr为需要转换的`tpr`文件)转换成`dump.txt`文件。
