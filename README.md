@@ -42,5 +42,8 @@
 ### 鸣谢
 在开发`gmxoutchg_py`的过程中，参考了<a href='http://bbs.keinsci.com/thread-5417-1-1.html' target='_blank'>`gmxoutchg`</a>的Fortran源码。此外，还使用到了`dataclasses`库中的`dataclass`，`collections`库中的`OrderedDict`以及`re`库和`PyInstaller`库。在此对上述库或程序的开发者表示感谢。
 
+### TODO list
+* 采用C++进行编写，无需利用`gmx dump`对`tpr`文件进行转换，程序直接处理`tpr`文件。
+
 ### 许可证
 `gmxoutchg_py`基于MIT许可证开源。这意味着您可以自由地使用，修改和分发代码。
